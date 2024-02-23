@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {
+    --fonte1: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #ff66c4, #5170ff);
+}
+
+div.container {
+    font-family: var(--fonte1);
+    background-image: linear-gradient(to left, #5170ff, #ff66c4);
+}
