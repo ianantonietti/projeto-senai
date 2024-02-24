@@ -21,6 +21,55 @@ body {
 }
 
 div.container {
+    text-align: center;
+    height: 525px;
+    width: 400px;
     font-family: var(--fonte1);
     background-image: linear-gradient(to left, #5170ff, #ff66c4);
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
 }
+
+h1 {
+    padding: 30px;
+    font-size: 3em;
+    color: #3a2506;
+}
+
+#matricula {
+    background-image: linear-gradient(to right, #fff7ad, #ffa9f9);
+    color: #5170ff;
+    width: 250px;
+    margin: auto;
+    padding: 30px;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+#senha {
+    background-image: linear-gradient(to right, #fff7ad, #ffa9f9);
+    color: #5170ff;
+    width: 250px;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+
+#esq {
+    text-decoration: underline;
+}
+
+#entrar {
+    background-image: linear-gradient(to right, #fff7ad, #ffa9f9);
+    color: #3a2506;
+    width: 100px;
+    margin: 20px auto;
+    padding: 25px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+conect
